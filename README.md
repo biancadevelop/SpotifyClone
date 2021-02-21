@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+1. create react app
+2.make firebase project
+3. create spotify account and go to developers section to get client id
+4.create spotify.js to create redirect to authenticate and add scopes of what we are allowed to do in app
+5.Get the access token from the Url
+6. installed a wrapper with  yarn add spotify-web-api-js to be able to interact with spotify 
