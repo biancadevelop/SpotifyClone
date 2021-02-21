@@ -69,11 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
 1. create react app
-2.make firebase project
-3. create spotify account and go to developers section to get client id
-4.create spotify.js to create redirect to authenticate and add scopes of what we are allowed to do in app
-5.Get the access token from the Url
-6. installed a wrapper with  yarn add spotify-web-api-js to be able to interact with spotify 
+   2.make firebase project
+2. create spotify account and go to developers section to get client id
+   4.create spotify.js to create redirect to authenticate and add scopes of what we are allowed to do in app
+   5.Get the access token from the Url
+3. installed a wrapper with yarn add spotify-web-api-js to be able to interact with spotify
+4. use context api so I dont need to do prop drilling for passing user down to children components
